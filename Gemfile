@@ -83,3 +83,7 @@ group :test do
   gem 'selenium-webdriver', '3.142.4'
   gem 'webdrivers',         '4.1.2'
 end
+
+group :production do
+  gem 'pg', '1.1.4'
+end
